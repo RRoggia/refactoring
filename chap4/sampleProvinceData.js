@@ -1,4 +1,4 @@
-function sampleProvinceDate() {
+function sampleProvinceData() {
   return {
     name: 'Asia',
     producers: [
@@ -11,4 +11,4 @@ function sampleProvinceDate() {
   }
 }
 
-module.exports = sampleProvinceDate
+module.exports = sampleProvinceData
