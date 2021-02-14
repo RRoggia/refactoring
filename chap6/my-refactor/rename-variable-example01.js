@@ -1,12 +1,12 @@
 function Title() {
-  let tpHD = 'untitled'
+  let _title = 'untitled'
 
   function title() {
-    return tpHD
+    return _title
   }
 
   function setTitle( title ) {
-    tpHD = title
+    _title = title
   }
   return {
     title, setTitle
