@@ -1,5 +1,12 @@
 # refactoring
-Each chapter's code has a specific folder with the chapter name (example: `chap6` or `chap11`). From chapter 6 onwards you will find two folders inside the chapter's folder `my-refactor` and `example`. The `example` folder has the exact ( with minor changes to make code compile ) code from the book. The `my-refactor` is a mix of my initial attempt to apply the refactoring technique after I read the refactoring's _Motivation_ section plus the learning from reading the author applying the refactoring technique in the book. 
+This repo has the code and from the Refactoring - Improving the design of your code (2nd edition)
+
+## Structure
+Each chapter's code has a specific folder with the chapter name (example: `chap6` or `chap11`).
+
+From chapter 6 onwards you will find two folders inside the chapter's folder `my-refactor` and `example`.
+- `example`: It has the exact ( with minor changes to make code compile ) code from the book.
+- `my-refactor`: It's a mix of my initial attempt to apply the refactoring technique after I read the refactoring's _Motivation_ section plus the learning from reading the author applying the refactoring technique in the book. 
 
 ## Comparison of refactorings from 1st and 2nd version
 Below you can find two tables that relates the refactorings from the first and second version of the book. Each chapter has two tables, one table that has the index based on the first version and a table that the index is based on the second version. The second column has the representative in the opposite version of the index column.
