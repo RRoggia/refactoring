@@ -1,4 +1,3 @@
-const Producer = require('../../chap4/producer.js')
 const Province =  require( '../../chap4/province.js' )
 const sampleProvinceData = require( '../../chap4/sampleProvinceData.js' )
 
@@ -61,6 +60,7 @@ describe( 'No producers', () => {
   } )
 } )
 
+// this test fails because it fails in the book
 describe( 'string for producers', () => {
   test( '', () => {
     const data = {
