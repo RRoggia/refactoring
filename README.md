@@ -62,3 +62,17 @@ You might find it useful if you are doing a book club where people have differen
 |                           | Replace Temp With Query       |
 |                           | Substitute Algorithm          |
 
+| V2                        | V1                            |
+| ------------------------- | ----------------------------- |
+|                           |                               |
+
+**Chap 8**
+
+| V1                        | V2                            |
+| ------------------------- | ----------------------------- |
+|                           |                               |
+
+| V2                        | V1                            |
+| ------------------------- | ----------------------------- |
+| Move Function             | Move Method  (CH 7)           |
+| Move Field                | Move Field (CH 7)             |
