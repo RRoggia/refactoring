@@ -17,10 +17,10 @@ function enrichReading( reading ) {
   }
 
   function calculateTaxableCharge( aReading ) {
-    return Math.max( 0, aReading.baseCharge - taxTreshold( aReading.year ) )
+    return Math.max( 0, aReading.baseCharge - taxThreshold( aReading.year ) )
   }
 
-  function taxTreshold( year ) {
+  function taxThreshold( year ) {
     return year - 100
   }
   
