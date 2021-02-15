@@ -1,20 +1,25 @@
 function priceOrder( product, quantity, shippingMethod ) {
+  const productPriceData = calculateProductPriceData( quantity, product )
+  return applyShipping( productPriceData, shippingMethod )
+}
+
+function calculateProductPriceData( quantity, product ) {
   const basePrice = product.basePrice * quantity
-  const discount = chargeDiscount( quantity, product )
-  const shippingCost = chargeShipping( basePrice, shippingMethod )
-  const price = basePrice - discount + shippingCost
-  return price
-}
-
-function chargeDiscount( quantity, product ) {
-  return Math.max( quantity - product.discountThreshold, 0 ) *
+  const discount = Math.max( quantity - product.discountThreshold, 0 ) *
     product.basePrice * product.discountRate
+
+  return {
+    basePrice,
+    discount,
+    basePriceWithDiscount: basePrice - discount
+  }
 }
 
-function chargeShipping( basePrice, shippingMethod ) {
-  const shippingPerCase = ( basePrice > shippingMethod.discountThreshold ) ?
+function applyShipping( productPriceData, shippingMethod ) {
+  const shippingPerCase = ( productPriceData.basePrice > shippingMethod.discountThreshold ) ?
   shippingMethod.discountFee : shippingMethod.discountFeePerCase
-  return quantity * shippingPerCase 
+  const shippingCost = quantity * shippingPerCase 
+  return productPriceData.basePriceWithDiscount + shippingCost
 }
 
 const productA = {
