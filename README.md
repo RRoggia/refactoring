@@ -56,15 +56,19 @@ You might find it useful if you are doing a book club where people have differen
 | Remove Middle Man         | Remove Middle Man             |
 | Introduce Foreign Method  |                               |
 | Introduce Local Extension |                               |
-|                           | Encapsulate Record            |
-|                           | Encapsulate Collection        |
-|                           | Replace Primitive With Object |
-|                           | Replace Temp With Query       |
-|                           | Substitute Algorithm          |
 
-| V2                        | V1                            |
-| ------------------------- | ----------------------------- |
-|                           |                               |
+| V2                            | V1                                    |
+| ----------------------------- | ------------------------------------- |
+| Encapsulate Record            | Replace Record with Data Class (CH 8) |
+| Encapsulate Collection        | Encapsulate Collection (CH 8)         |
+| Replace Primitive With Object | Replace Data Value with Object (CH 8) |
+| Replace Primitive With Object | Replace Type Code with Class (CH 8)   |
+| Replace Temp With Query       | Replace Temp With Query (CH 6)        |
+| Extract Class                 | Extract Class                         |
+| Inline Class                  | Inline Class                          |
+| Hide Delegate                 | Hide Delegate                         |
+| Remove Middle Man             | Remove Middle Man                     |
+| Substitute Algorithm          | Substitute Algorithm (CH 6)           |
 
 **Chap 8**
 
