@@ -27,7 +27,7 @@ function renderPhoto( photo ) {
   return [ `<img> ${ photo.toString() } </img>` ]
 }
 
-console.log( renderPerson( null, { 
+console.log( renderPerson( null, {
   name: 'Martin',
   photo: {
     title: 'Martin\'s photo',
