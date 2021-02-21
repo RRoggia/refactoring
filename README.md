@@ -92,14 +92,14 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Subclass with Fields                       |                                      |
 
 
-| V2 - Moving Features              | V1                            |
-| --------------------------------- | ----------------------------- |
-| Move Function                     | Move Method (CH 7)            |
-| Move Field                        | Move Field (CH 7)             |
-| Move Statements into Functions    |                               |
-| Move Statements to Callers        |                               |
-| Replace Inline with Function Call |                               |
-| Slide Statement                   |                               |
-| Split Loop                        |                               |
-| Replace Loop with Pipeline        |                               |
-| Remove Dead Code                  |                               |
+| V2 - Moving Features              | V1                                                |
+| --------------------------------- | ------------------------------------------------- |
+| Move Function                     | Move Method (CH 7)                                |
+| Move Field                        | Move Field (CH 7)                                 |
+| Move Statements into Functions    |                                                   |
+| Move Statements to Callers        |                                                   |
+| Replace Inline with Function Call |                                                   |
+| Slide Statement                   | Consolidate Duplicate Conditional Fragment (CH 9) |
+| Split Loop                        |                                                   |
+| Replace Loop with Pipeline        |                                                   |
+| Remove Dead Code                  |                                                   |
