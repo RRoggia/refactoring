@@ -91,7 +91,6 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Type Code with State/Strategy              |                                      |
 | Replace Subclass with Fields                       |                                      |
 
-
 | V2 - Moving Features              | V1                                                |
 | --------------------------------- | ------------------------------------------------- |
 | Move Function                     | Move Method (CH 7)                                |
@@ -103,3 +102,25 @@ You might find it useful if you are doing a book club where people have differen
 | Split Loop                        |                                                   |
 | Replace Loop with Pipeline        |                                                   |
 | Remove Dead Code                  |                                                   |
+
+**Chap 9**
+
+| V1 - Simplifying Conditional Expressions      | V2                                   |
+| --------------------------------------------- | ------------------------------------ |
+| Decompose Conditional                         |                                      |
+| Consolidate Conditional Expression            |                                      |
+| Consolidate Duplicate Conditional Fragments   | Slide Statement (CH 8)               |
+| Remove Control Flag                           |                                      |
+| Replace Nested Conditional with Guard Clauses |                                      |
+| Replace Conditional with Polymorphism         |                                      |
+| Introduce Null Object                         |                                      |
+| Introduce Assertion                           |                                      |
+
+| V2 - Organizing Data                | V1                                                |
+| ----------------------------------- | ------------------------------------------------- |
+| Split Variable                      | Split Temporary Variable (CH 6)                   |
+| Split Variable                      | Remove Assignment to Parameter(CH 6)              |
+| Rename Field                        |                                                   |
+| Replace Derived Variable with Query |                                                   |
+| Change Reference to Value           |                                                   |
+| Change Value to Reference           |                                                   |
