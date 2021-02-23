@@ -76,8 +76,8 @@ You might find it useful if you are doing a book club where people have differen
 | -------------------------------------------------- | ------------------------------------ |
 | Self Encapsulate Field                             | Encapsulate Variable (CH 6)          |
 | Replace Data Value with Object                     | Replace Primitive With Object (CH 7) |
-| Change Value to Reference                          |                                      |
-| Change Reference to Value                          |                                      |
+| Change Value to Reference                          | Change Value to Reference (CH 9)     |
+| Change Reference to Value                          | Change Reference to Value (CH 9)     |
 | Replace Array with Object                          |                                      |
 | Duplicate Observed Data                            |                                      |
 | Change Unidirectional Association to Bidirectional |                                      |
@@ -122,5 +122,5 @@ You might find it useful if you are doing a book club where people have differen
 | Split Variable                      | Remove Assignment to Parameter(CH 6)              |
 | Rename Field                        |                                                   |
 | Replace Derived Variable with Query |                                                   |
-| Change Reference to Value           |                                                   |
-| Change Value to Reference           |                                                   |
+| Change Reference to Value           | Change Value to Reference (CH 8)                  |
+| Change Value to Reference           | Change Reference to Value (CH 8)                  |
