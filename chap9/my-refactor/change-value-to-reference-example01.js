@@ -1,7 +1,9 @@
+const { registerCustomer, findCustomer } = customerRepository()
+
 class Order {
   constructor( data ) {
     this._number = data.number
-    this._customer = fetchCustomer( data.customer )
+    this._customer = registerCustomer( data.customer )
     // load other data
   }
 
@@ -20,14 +22,24 @@ class Customer {
   }
 }
 
-const customers = [ 
-  new Customer( 1312 ),
-  new Customer( 1313 ),
-  new Customer( 1314 )
-]
+function customerRepository() {
+  let customers = new Map()
 
-function fetchCustomer( id ) {
-  return customers.find( c => c.id === id )
+  function registerCustomer( id ) {
+    if( !customers.has( id ) ) {
+      customers.set( id, new Customer( id ) )
+    }
+    return findCustomer( id )
+  }
+
+  function findCustomer( id ) {
+    return customers.get( id )
+  }
+
+  return {
+    registerCustomer,
+    findCustomer
+  }
 }
 
 const order = new Order( { customer: 1312, number: 30 } )
