@@ -124,3 +124,32 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Derived Variable with Query |                                                   |
 | Change Reference to Value           | Change Value to Reference (CH 8)                  |
 | Change Value to Reference           | Change Reference to Value (CH 8)                  |
+
+**Chap 10**
+
+| V1 - Making Method Calls Simpler              | V2                                   |
+| --------------------------------------------- | ------------------------------------ |
+| Rename Method                                 |                                      |
+| Add Parameter                                 |                                      |
+| Remove Parameter                              |                                      |
+| Separate Query from Modifier                  |                                      |
+| Parameterize Method                           |                                      |
+| Replace Parameter with Explicit Methods       |                                      |
+| Preserve Whole Object                         |                                      |
+| Replace Parameter with Method                 |                                      |
+| Introduce Parameter Object                    |                                      |
+| Remove Setting Method                         |                                      |
+| Hide Method                                   |                                      |
+| Replace Constructor with Factory Method       |                                      |
+| Encapsulate Downcast                          |                                      |
+| Replace Error Code with Exception             |                                      |
+| Replace Exception with Test                   |                                      |
+
+| V2 - Simplifying Conditional Logic            | V1                                   |
+| --------------------------------------------- | ------------------------------------ |
+| Decompose Conditional                         |                                      |
+| Consolidate Conditional Expression            |                                      |
+| Replace Nested Conditional With Guard Clauses |                                      |
+| Replace Conditional with Polymorphism         |                                      |
+| Introduce Special Case                        |                                      |
+| Introduce Assertion                           |                                      |
