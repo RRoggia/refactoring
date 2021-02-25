@@ -105,16 +105,16 @@ You might find it useful if you are doing a book club where people have differen
 
 **Chap 9**
 
-| V1 - Simplifying Conditional Expressions      | V2                                   |
-| --------------------------------------------- | ------------------------------------ |
-| Decompose Conditional                         |                                      |
-| Consolidate Conditional Expression            |                                      |
-| Consolidate Duplicate Conditional Fragments   | Slide Statement (CH 8)               |
-| Remove Control Flag                           |                                      |
-| Replace Nested Conditional with Guard Clauses |                                      |
-| Replace Conditional with Polymorphism         |                                      |
-| Introduce Null Object                         |                                      |
-| Introduce Assertion                           |                                      |
+| V1 - Simplifying Conditional Expressions      | V2                                                    |
+| --------------------------------------------- | ----------------------------------------------------- |
+| Decompose Conditional                         | Decompose Conditional (CH 10)                         |
+| Consolidate Conditional Expression            | Consolidate Conditional Expression (CH 10)            |
+| Consolidate Duplicate Conditional Fragments   | Slide Statement (CH 8)                                |
+| Remove Control Flag                           |                                                       |
+| Replace Nested Conditional with Guard Clauses | Replace Nested Conditional with Guard Clauses (CH 10) |
+| Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 10)         |
+| Introduce Null Object                         |                                                       |
+| Introduce Assertion                           | Introduce Assertion (CH 10)                           |
 
 | V2 - Organizing Data                | V1                                                |
 | ----------------------------------- | ------------------------------------------------- |
@@ -122,8 +122,8 @@ You might find it useful if you are doing a book club where people have differen
 | Split Variable                      | Remove Assignment to Parameter(CH 6)              |
 | Rename Field                        |                                                   |
 | Replace Derived Variable with Query |                                                   |
-| Change Reference to Value           | Change Value to Reference (CH 8)                  |
-| Change Value to Reference           | Change Reference to Value (CH 8)                  |
+| Change Reference to Value           | Change Reference to Value (CH 8)                  |
+| Change Value to Reference           | Change Value to Reference (CH 8)                  |
 
 **Chap 10**
 
@@ -145,11 +145,11 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Error Code with Exception             |                                      |
 | Replace Exception with Test                   |                                      |
 
-| V2 - Simplifying Conditional Logic            | V1                                   |
-| --------------------------------------------- | ------------------------------------ |
-| Decompose Conditional                         |                                      |
-| Consolidate Conditional Expression            |                                      |
-| Replace Nested Conditional With Guard Clauses |                                      |
-| Replace Conditional with Polymorphism         |                                      |
-| Introduce Special Case                        |                                      |
-| Introduce Assertion                           |                                      |
+| V2 - Simplifying Conditional Logic            | V1                                                   |
+| --------------------------------------------- | ---------------------------------------------------- |
+| Decompose Conditional                         | Decompose Conditional(CH 9)                          |
+| Consolidate Conditional Expression            | Consolidate Conditional Expression (CH 9)            |
+| Replace Nested Conditional With Guard Clauses | Replace Nested Conditional with Guard Clauses (CH 9) |
+| Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 9)         |
+| Introduce Special Case                        |                                                      |
+| Introduce Assertion                           | Introduce Assertion (CH 10)                          |
