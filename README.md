@@ -39,7 +39,7 @@ You might find it useful if you are doing a book club where people have differen
 | Encapsulate Variable              | Self Encapsulate Fields (CH 8)        |
 | Encapsulate Variable              | Encapsulate Fields (CH 8)             |
 | Rename Variable                   |                                       |
-| Introduce Parameter Object        |                                       |
+| Introduce Parameter Object        | Introduce Parameter Object (CH 10)    |
 | Combine Functions into Class      |                                       |
 | Combine Functions into Transform  |                                       |
 | Split Phase                       |                                       |
@@ -129,15 +129,15 @@ You might find it useful if you are doing a book club where people have differen
 
 | V1 - Making Method Calls Simpler              | V2                                   |
 | --------------------------------------------- | ------------------------------------ |
-| Rename Method                                 |                                      |
-| Add Parameter                                 |                                      |
-| Remove Parameter                              |                                      |
+| Rename Method                                 | Change Function Declaration (CH 6)   |
+| Add Parameter                                 | Change Function Declaration (CH 6)   |
+| Remove Parameter                              | Change Function Declaration (CH 6)   |
 | Separate Query from Modifier                  |                                      |
 | Parameterize Method                           |                                      |
 | Replace Parameter with Explicit Methods       |                                      |
 | Preserve Whole Object                         |                                      |
 | Replace Parameter with Method                 |                                      |
-| Introduce Parameter Object                    |                                      |
+| Introduce Parameter Object                    | Introduce Parameter Object (CH 10)   |
 | Remove Setting Method                         |                                      |
 | Hide Method                                   |                                      |
 | Replace Constructor with Factory Method       |                                      |
