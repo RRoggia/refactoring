@@ -82,7 +82,7 @@ You might find it useful if you are doing a book club where people have differen
 | Duplicate Observed Data                            |                                      |
 | Change Unidirectional Association to Bidirectional |                                      |
 | Change Bidirectional Association to Unidirectional |                                      |
-| Replace Magic Number with Symbolic Constant        | Replace Magic Literals (CH 10)       |
+| Replace Magic Number with Symbolic Constant        | Replace Magic Literal (CH 9)         |
 | Encapsulate Field                                  | Encapsulate Variable (CH 6)          |
 | Encapsulate Collection                             | Encapsulate Collection (CH 7)        |
 | Replace Record with Data Class                     |                                      |
@@ -116,14 +116,16 @@ You might find it useful if you are doing a book club where people have differen
 | Introduce Null Object                         |                                                       |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                           |
 
-| V2 - Organizing Data                | V1                                                |
-| ----------------------------------- | ------------------------------------------------- |
-| Split Variable                      | Split Temporary Variable (CH 6)                   |
-| Split Variable                      | Remove Assignment to Parameter(CH 6)              |
-| Rename Field                        |                                                   |
-| Replace Derived Variable with Query |                                                   |
-| Change Reference to Value           | Change Reference to Value (CH 8)                  |
-| Change Value to Reference           | Change Value to Reference (CH 8)                  |
+| V2 - Organizing Data                | V1                                                 |
+| ----------------------------------- | -------------------------------------------------- |
+| Split Variable                      | Split Temporary Variable (CH 6)                    |
+| Split Variable                      | Remove Assignment to Parameter(CH 6)               |
+| Rename Field                        |                                                    |
+| Replace Derived Variable with Query |                                                    |
+| Change Reference to Value           | Change Reference to Value (CH 8)                   |
+| Change Value to Reference           | Change Value to Reference (CH 8)                   |
+| Replace Magic Literal               | Replace Magic Number with Symbolic Constant (CH 8) |
+
 
 **Chap 10**
 
@@ -153,4 +155,3 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 9)         |
 | Introduce Special Case                        |                                                      |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                          |
-| Replace Magic Literals                        | Replace Magic Number with Symbolic Constant (CH 8)   |
