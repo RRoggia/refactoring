@@ -134,7 +134,7 @@ You might find it useful if you are doing a book club where people have differen
 | Rename Method                                 | Change Function Declaration (CH 6)   |
 | Add Parameter                                 | Change Function Declaration (CH 6)   |
 | Remove Parameter                              | Change Function Declaration (CH 6)   |
-| Separate Query from Modifier                  |                                      |
+| Separate Query from Modifier                  | Separate Query from Modifier (CH 11) |
 | Parameterize Method                           |                                      |
 | Replace Parameter with Explicit Methods       |                                      |
 | Preserve Whole Object                         |                                      |
@@ -156,3 +156,37 @@ You might find it useful if you are doing a book club where people have differen
 | Introduce Special Case                        | Introduce Null Object (CH 9)                         |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                          |
 | Replace Control Flag with Break               | Remove Control Flag(CH 9)                            |
+
+**Chap 11**
+
+| V1 - Dealing with Generalization              | V2                                   |
+| --------------------------------------------- | ------------------------------------ |
+| Pull Up Field                                 |                                      |
+| Pull Up Method                                |                                      |
+| Pull Up Constructor Body                      |                                      |
+| Push Down Method                              |                                      |
+| Push Down Field                               |                                      |
+| Extract Subclass                              |                                      |
+| Extract Superclass                            |                                      |
+| Extract Interface                             |                                      |
+| Collapse Hierarchy                            |                                      |
+| Form Template Method                          |                                      |
+| Replace Inheritance with Delegation           |                                      |
+| Replace Delegation with Inheritance           |                                      |
+
+
+| V2 - Refactoring APIs                         | V1                                                   |
+| --------------------------------------------- | ---------------------------------------------------- |
+| Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
+| Parameterize Function                         |                                                      |
+| Remove Flag Argument                          |                                                      |
+| Preserve Whole Object                         |                                                      |
+| Replace Parameter with Query                  |                                                      |
+| Replace Query with Parameter                  |                                                      |
+| Remove Setting Method                         |                                                      |
+| Replace Constructor with Factory Function     |                                                      |
+| Replace Function with Command                 |                                                      |
+| Replace Command with Function                 |                                                      |
+| Return Modified Value                         |                                                      |
+| Replace Error Code with Exception             |                                                      |
+| Replace Exception with Precheck               |                                                      |
