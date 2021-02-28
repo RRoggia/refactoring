@@ -136,7 +136,7 @@ You might find it useful if you are doing a book club where people have differen
 | Remove Parameter                              | Change Function Declaration (CH 6)   |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 11) |
 | Parameterize Method                           | Parameterize Function (CH 11)        |
-| Replace Parameter with Explicit Methods       |                                      |
+| Replace Parameter with Explicit Methods       | Remove Flag Argument(CH 11)          |
 | Preserve Whole Object                         |                                      |
 | Replace Parameter with Method                 |                                      |
 | Introduce Parameter Object                    | Introduce Parameter Object (CH 10)   |
@@ -179,7 +179,7 @@ You might find it useful if you are doing a book club where people have differen
 | --------------------------------------------- | ---------------------------------------------------- |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
 | Parameterize Function                         | Parameterize Method (CH 10)                          |
-| Remove Flag Argument                          |                                                      |
+| Remove Flag Argument                          | Replace Parameter with Explicit Methods (CH 10)      |
 | Preserve Whole Object                         |                                                      |
 | Replace Parameter with Query                  |                                                      |
 | Replace Query with Parameter                  |                                                      |
