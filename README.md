@@ -110,10 +110,10 @@ You might find it useful if you are doing a book club where people have differen
 | Decompose Conditional                         | Decompose Conditional (CH 10)                         |
 | Consolidate Conditional Expression            | Consolidate Conditional Expression (CH 10)            |
 | Consolidate Duplicate Conditional Fragments   | Slide Statement (CH 8)                                |
-| Remove Control Flag                           |                                                       |
+| Remove Control Flag                           | Replace Control Flag With Break (CH 10)               |
 | Replace Nested Conditional with Guard Clauses | Replace Nested Conditional with Guard Clauses (CH 10) |
 | Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 10)         |
-| Introduce Null Object                         |                                                       |
+| Introduce Null Object                         | Introduce Special Case (CH 10)                        |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                           |
 
 | V2 - Organizing Data                | V1                                                 |
@@ -153,5 +153,6 @@ You might find it useful if you are doing a book club where people have differen
 | Consolidate Conditional Expression            | Consolidate Conditional Expression (CH 9)            |
 | Replace Nested Conditional With Guard Clauses | Replace Nested Conditional with Guard Clauses (CH 9) |
 | Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 9)         |
-| Introduce Special Case                        |                                                      |
+| Introduce Special Case                        | Introduce Null Object (CH 9)                         |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                          |
+| Replace Control Flag with Break               | Remove Control Flag(CH 9)                            |
