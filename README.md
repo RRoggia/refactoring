@@ -82,7 +82,7 @@ You might find it useful if you are doing a book club where people have differen
 | Duplicate Observed Data                            |                                      |
 | Change Unidirectional Association to Bidirectional |                                      |
 | Change Bidirectional Association to Unidirectional |                                      |
-| Replace Magic Number with Symbolic Constant        |                                      |
+| Replace Magic Number with Symbolic Constant        | Replace Magic Literals (CH 10)       |
 | Encapsulate Field                                  | Encapsulate Variable (CH 6)          |
 | Encapsulate Collection                             | Encapsulate Collection (CH 7)        |
 | Replace Record with Data Class                     |                                      |
@@ -153,3 +153,4 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 9)         |
 | Introduce Special Case                        |                                                      |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                          |
+| Replace Magic Literals                        | Replace Magic Number with Symbolic Constant (CH 8)   |
