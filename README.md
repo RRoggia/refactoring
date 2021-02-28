@@ -135,7 +135,7 @@ You might find it useful if you are doing a book club where people have differen
 | Add Parameter                                 | Change Function Declaration (CH 6)   |
 | Remove Parameter                              | Change Function Declaration (CH 6)   |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 11) |
-| Parameterize Method                           |                                      |
+| Parameterize Method                           | Parameterize Function (CH 11)        |
 | Replace Parameter with Explicit Methods       |                                      |
 | Preserve Whole Object                         |                                      |
 | Replace Parameter with Method                 |                                      |
@@ -178,7 +178,7 @@ You might find it useful if you are doing a book club where people have differen
 | V2 - Refactoring APIs                         | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
-| Parameterize Function                         |                                                      |
+| Parameterize Function                         | Parameterize Method (CH 10)                          |
 | Remove Flag Argument                          |                                                      |
 | Preserve Whole Object                         |                                                      |
 | Replace Parameter with Query                  |                                                      |
