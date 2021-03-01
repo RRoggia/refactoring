@@ -180,7 +180,7 @@ You might find it useful if you are doing a book club where people have differen
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
 | Parameterize Function                         | Parameterize Method (CH 10)                          |
 | Remove Flag Argument                          | Replace Parameter with Explicit Methods (CH 10)      |
-| Preserve Whole Object                         |                                                      |
+| Preserve Whole Object                         | Preserve Whole Object (CH 10)                        |
 | Replace Parameter with Query                  |                                                      |
 | Replace Query with Parameter                  |                                                      |
 | Remove Setting Method                         |                                                      |
