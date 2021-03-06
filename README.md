@@ -129,23 +129,23 @@ You might find it useful if you are doing a book club where people have differen
 
 **Chap 10**
 
-| V1 - Making Method Calls Simpler              | V2                                   |
-| --------------------------------------------- | ------------------------------------ |
-| Rename Method                                 | Change Function Declaration (CH 6)   |
-| Add Parameter                                 | Change Function Declaration (CH 6)   |
-| Remove Parameter                              | Change Function Declaration (CH 6)   |
-| Separate Query from Modifier                  | Separate Query from Modifier (CH 11) |
-| Parameterize Method                           | Parameterize Function (CH 11)        |
-| Replace Parameter with Explicit Methods       | Remove Flag Argument(CH 11)          |
-| Preserve Whole Object                         | Preserve Whole Object (CH 11)        |
-| Replace Parameter with Method                 | Replace Parameter with Query (CH 11) |
-| Introduce Parameter Object                    | Introduce Parameter Object (CH 10)   |
-| Remove Setting Method                         | Remove Setting Method (CH 11)        |
-| Hide Method                                   |                                      |
-| Replace Constructor with Factory Method       |                                      |
-| Encapsulate Downcast                          |                                      |
-| Replace Error Code with Exception             |                                      |
-| Replace Exception with Test                   |                                      |
+| V1 - Making Method Calls Simpler              | V2                                                |
+| --------------------------------------------- | ------------------------------------------------- |
+| Rename Method                                 | Change Function Declaration (CH 6)                |
+| Add Parameter                                 | Change Function Declaration (CH 6)                |
+| Remove Parameter                              | Change Function Declaration (CH 6)                |
+| Separate Query from Modifier                  | Separate Query from Modifier (CH 11)              |
+| Parameterize Method                           | Parameterize Function (CH 11)                     |
+| Replace Parameter with Explicit Methods       | Remove Flag Argument(CH 11)                       |
+| Preserve Whole Object                         | Preserve Whole Object (CH 11)                     |
+| Replace Parameter with Method                 | Replace Parameter with Query (CH 11)              |
+| Introduce Parameter Object                    | Introduce Parameter Object (CH 10)                |
+| Remove Setting Method                         | Remove Setting Method (CH 11)                     |
+| Hide Method                                   |                                                   |
+| Replace Constructor with Factory Method       | Replace Constructor with Factory Function (CH 11) |
+| Encapsulate Downcast                          |                                                   |
+| Replace Error Code with Exception             |                                                   |
+| Replace Exception with Test                   |                                                   |
 
 | V2 - Simplifying Conditional Logic            | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
@@ -183,7 +183,7 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Parameter with Query                  | Replace Parameter with Method (CH 10)                |
 | Replace Query with Parameter                  |                                                      |
 | Remove Setting Method                         | Remove Setting Method (CH 10)                        |
-| Replace Constructor with Factory Function     |                                                      |
+| Replace Constructor with Factory Function     | Replace Constructor with Factory Method (CH 10)      |
 | Replace Function with Command                 |                                                      |
 | Replace Command with Function                 |                                                      |
 | Return Modified Value                         |                                                      |
