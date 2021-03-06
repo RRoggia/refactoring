@@ -137,10 +137,10 @@ You might find it useful if you are doing a book club where people have differen
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 11) |
 | Parameterize Method                           | Parameterize Function (CH 11)        |
 | Replace Parameter with Explicit Methods       | Remove Flag Argument(CH 11)          |
-| Preserve Whole Object                         |                                      |
-| Replace Parameter with Method                 |                                      |
+| Preserve Whole Object                         | Preserve Whole Object (CH 11)        |
+| Replace Parameter with Method                 | Replace Parameter with Query (CH 11) |
 | Introduce Parameter Object                    | Introduce Parameter Object (CH 10)   |
-| Remove Setting Method                         |                                      |
+| Remove Setting Method                         | Remove Setting Method (CH 11)        |
 | Hide Method                                   |                                      |
 | Replace Constructor with Factory Method       |                                      |
 | Encapsulate Downcast                          |                                      |
@@ -174,16 +174,15 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Inheritance with Delegation           |                                      |
 | Replace Delegation with Inheritance           |                                      |
 
-
 | V2 - Refactoring APIs                         | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
 | Parameterize Function                         | Parameterize Method (CH 10)                          |
 | Remove Flag Argument                          | Replace Parameter with Explicit Methods (CH 10)      |
 | Preserve Whole Object                         | Preserve Whole Object (CH 10)                        |
-| Replace Parameter with Query                  |                                                      |
+| Replace Parameter with Query                  | Replace Parameter with Method (CH 10)                |
 | Replace Query with Parameter                  |                                                      |
-| Remove Setting Method                         |                                                      |
+| Remove Setting Method                         | Remove Setting Method (CH 10)                        |
 | Replace Constructor with Factory Function     |                                                      |
 | Replace Function with Command                 |                                                      |
 | Replace Command with Function                 |                                                      |
