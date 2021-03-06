@@ -144,8 +144,8 @@ You might find it useful if you are doing a book club where people have differen
 | Hide Method                                   |                                                   |
 | Replace Constructor with Factory Method       | Replace Constructor with Factory Function (CH 11) |
 | Encapsulate Downcast                          |                                                   |
-| Replace Error Code with Exception             |                                                   |
-| Replace Exception with Test                   |                                                   |
+| Replace Error Code with Exception             | Replace Error Code with Exception (CH 11)         |
+| Replace Exception with Test                   | Replace Exception with Precheck(CH 11)            |
 
 | V2 - Simplifying Conditional Logic            | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
@@ -187,5 +187,5 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Function with Command                 | Replace Method with Method Object (CH 6)             |
 | Replace Command with Function                 |                                                      |
 | Return Modified Value                         |                                                      |
-| Replace Error Code with Exception             |                                                      |
-| Replace Exception with Precheck               |                                                      |
+| Replace Error Code with Exception             | Replace Error Code with Exception (CH 10)            |
+| Replace Exception with Precheck               | Replace Exception with Test (CH 10)                  |
