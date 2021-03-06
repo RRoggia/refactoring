@@ -184,7 +184,7 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Query with Parameter                  |                                                      |
 | Remove Setting Method                         | Remove Setting Method (CH 10)                        |
 | Replace Constructor with Factory Function     | Replace Constructor with Factory Method (CH 10)      |
-| Replace Function with Command                 |                                                      |
+| Replace Function with Command                 | Replace Method with Method Object (CH 6)             |
 | Replace Command with Function                 |                                                      |
 | Return Modified Value                         |                                                      |
 | Replace Error Code with Exception             |                                                      |

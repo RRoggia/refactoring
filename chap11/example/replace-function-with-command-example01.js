@@ -19,3 +19,7 @@ function score( candidate, medicalExam, scoringGuide ) {
   return result
 }
 
+const candidate = { origin: 'RS' }
+const medicalExam = { isSmoker: true }
+const scoringGuide = { stateWithLowCertification: (o) => [ 'RS', 'MS', 'RJ' ].find( s => s == o ) }
+console.log( score( candidate, medicalExam, scoringGuide ) )
