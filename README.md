@@ -13,6 +13,7 @@ Below you can find two tables that relates the refactorings from the first and s
 
 You might find it useful if you are doing a book club where people have different versions of the book.
 
+# V1 - Summary
 **Chap 6**
 
 | V1 - Composing Methods            | V2                                    |
@@ -27,22 +28,7 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Method with Method Object | Replace Function with Command (CH 11) |
 | Substitute Algorithm              | Substitute Algorithm (CH 7)           |
 
-| V2 - A first set of Refactorings  | V1                                    |
-| --------------------------------- | ------------------------------------- |
-| Extract Function                  | Extract Method                        |
-| Inline Function                   | Inline Method                         |
-| Extract Variable                  | Introduce Explaining Variable         |
-| Inline Variable                   | Inline Temp                           |
-| Change Function Declaration       | Rename Method (CH 10)                 |
-| Change Function Declaration       | Add Parameter (CH 10)                 |
-| Change Function Declaration       | Remove Parameter (CH 10)              |
-| Encapsulate Variable              | Self Encapsulate Fields (CH 8)        |
-| Encapsulate Variable              | Encapsulate Fields (CH 8)             |
-| Rename Variable                   |                                       |
-| Introduce Parameter Object        | Introduce Parameter Object (CH 10)    |
-| Combine Functions into Class      |                                       |
-| Combine Functions into Transform  |                                       |
-| Split Phase                       |                                       |
+
 
 **Chap 7**
 
@@ -57,51 +43,30 @@ You might find it useful if you are doing a book club where people have differen
 | Introduce Foreign Method             |                               |
 | Introduce Local Extension            |                               |
 
-| V2 - Encapsulation            | V1                                    |
-| ----------------------------- | ------------------------------------- |
-| Encapsulate Record            | Replace Record with Data Class (CH 8) |
-| Encapsulate Collection        | Encapsulate Collection (CH 8)         |
-| Replace Primitive With Object | Replace Data Value with Object (CH 8) |
-| Replace Primitive With Object | Replace Type Code with Class (CH 8)   |
-| Replace Temp With Query       | Replace Temp With Query (CH 6)        |
-| Extract Class                 | Extract Class                         |
-| Inline Class                  | Inline Class                          |
-| Hide Delegate                 | Hide Delegate                         |
-| Remove Middle Man             | Remove Middle Man                     |
-| Substitute Algorithm          | Substitute Algorithm (CH 6)           |
+
 
 **Chap 8**
 
-| V1 - Organizing Data                               | V2                                   |
-| -------------------------------------------------- | ------------------------------------ |
-| Self Encapsulate Field                             | Encapsulate Variable (CH 6)          |
-| Replace Data Value with Object                     | Replace Primitive With Object (CH 7) |
-| Change Value to Reference                          | Change Value to Reference (CH 9)     |
-| Change Reference to Value                          | Change Reference to Value (CH 9)     |
-| Replace Array with Object                          |                                      |
-| Duplicate Observed Data                            |                                      |
-| Change Unidirectional Association to Bidirectional |                                      |
-| Change Bidirectional Association to Unidirectional |                                      |
-| Replace Magic Number with Symbolic Constant        | Replace Magic Literal (CH 9)         |
-| Encapsulate Field                                  | Encapsulate Variable (CH 6)          |
-| Encapsulate Collection                             | Encapsulate Collection (CH 7)        |
-| Replace Record with Data Class                     |                                      |
-| Replace Type Code with Class                       | Replace Primitive With Object (CH 7) |
-| Replace Type Code with Subclasses                  |                                      |
-| Replace Type Code with State/Strategy              |                                      |
-| Replace Subclass with Fields                       |                                      |
+| V1 - Organizing Data                               | V2                                        |
+| -------------------------------------------------- | ----------------------------------------- |
+| Self Encapsulate Field                             | Encapsulate Variable (CH 6)               |
+| Replace Data Value with Object                     | Replace Primitive With Object (CH 7)      |
+| Change Value to Reference                          | Change Value to Reference (CH 9)          |
+| Change Reference to Value                          | Change Reference to Value (CH 9)          |
+| Replace Array with Object                          |                                           |
+| Duplicate Observed Data                            |                                           |
+| Change Unidirectional Association to Bidirectional |                                           |
+| Change Bidirectional Association to Unidirectional |                                           |
+| Replace Magic Number with Symbolic Constant        | Replace Magic Literal (CH 9)              |
+| Encapsulate Field                                  | Encapsulate Variable (CH 6)               |
+| Encapsulate Collection                             | Encapsulate Collection (CH 7)             |
+| Replace Record with Data Class                     |                                           |
+| Replace Type Code with Class                       | Replace Primitive With Object (CH 7)      |
+| Replace Type Code with Subclasses                  | Replace Type Code with Subclasses (CH 12) |
+| Replace Type Code with State/Strategy              |                                           |
+| Replace Subclass with Fields                       |                                           |
 
-| V2 - Moving Features              | V1                                                |
-| --------------------------------- | ------------------------------------------------- |
-| Move Function                     | Move Method (CH 7)                                |
-| Move Field                        | Move Field (CH 7)                                 |
-| Move Statements into Functions    |                                                   |
-| Move Statements to Callers        |                                                   |
-| Replace Inline with Function Call |                                                   |
-| Slide Statement                   | Consolidate Duplicate Conditional Fragment (CH 9) |
-| Split Loop                        |                                                   |
-| Replace Loop with Pipeline        |                                                   |
-| Remove Dead Code                  |                                                   |
+
 
 **Chap 9**
 
@@ -115,17 +80,6 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Conditional with Polymorphism         | Replace Conditional with Polymorphism (CH 10)         |
 | Introduce Null Object                         | Introduce Special Case (CH 10)                        |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                           |
-
-| V2 - Organizing Data                | V1                                                 |
-| ----------------------------------- | -------------------------------------------------- |
-| Split Variable                      | Split Temporary Variable (CH 6)                    |
-| Split Variable                      | Remove Assignment to Parameter(CH 6)               |
-| Rename Field                        |                                                    |
-| Replace Derived Variable with Query |                                                    |
-| Change Reference to Value           | Change Reference to Value (CH 8)                   |
-| Change Value to Reference           | Change Value to Reference (CH 8)                   |
-| Replace Magic Literal               | Replace Magic Number with Symbolic Constant (CH 8) |
-
 
 **Chap 10**
 
@@ -147,6 +101,82 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Error Code with Exception             | Replace Error Code with Exception (CH 11)         |
 | Replace Exception with Test                   | Replace Exception with Precheck(CH 11)            |
 
+**Chap 11**
+
+| V1 - Dealing with Generalization              | V2                                       |
+| --------------------------------------------- | ---------------------------------------- |
+| Pull Up Field                                 | Pull Up Field (CH 12)                    |
+| Pull Up Method                                | Pull Up Method (CH 12)                   |
+| Pull Up Constructor Body                      | Pull Up Constructor Body (CH 12)         |
+| Push Down Method                              | Push Down Method (CH 12)                 |
+| Push Down Field                               | Push Down Field (CH 12)                  |
+| Extract Subclass                              |                                          |
+| Extract Superclass                            | Extract Superclass (CH 12)               |
+| Extract Interface                             |                                          |
+| Collapse Hierarchy                            | Collapse Hierarchy (CH 12)               |
+| Form Template Method                          |                                          |
+| Replace Inheritance with Delegation           | Replace Subclass with Delegate (CH 12)   |
+| Replace Delegation with Inheritance           | Replace Superclass with Delegate (CH 12) |
+
+# V2 - Summary
+
+**Chap 6**
+| V2 - A first set of Refactorings  | V1                                    |
+| --------------------------------- | ------------------------------------- |
+| Extract Function                  | Extract Method                        |
+| Inline Function                   | Inline Method                         |
+| Extract Variable                  | Introduce Explaining Variable         |
+| Inline Variable                   | Inline Temp                           |
+| Change Function Declaration       | Rename Method (CH 10)                 |
+| Change Function Declaration       | Add Parameter (CH 10)                 |
+| Change Function Declaration       | Remove Parameter (CH 10)              |
+| Encapsulate Variable              | Self Encapsulate Fields (CH 8)        |
+| Encapsulate Variable              | Encapsulate Fields (CH 8)             |
+| Rename Variable                   |                                       |
+| Introduce Parameter Object        | Introduce Parameter Object (CH 10)    |
+| Combine Functions into Class      |                                       |
+| Combine Functions into Transform  |                                       |
+| Split Phase                       |                                       |
+
+**Chap 7**
+| V2 - Encapsulation            | V1                                    |
+| ----------------------------- | ------------------------------------- |
+| Encapsulate Record            | Replace Record with Data Class (CH 8) |
+| Encapsulate Collection        | Encapsulate Collection (CH 8)         |
+| Replace Primitive With Object | Replace Data Value with Object (CH 8) |
+| Replace Primitive With Object | Replace Type Code with Class (CH 8)   |
+| Replace Temp With Query       | Replace Temp With Query (CH 6)        |
+| Extract Class                 | Extract Class                         |
+| Inline Class                  | Inline Class                          |
+| Hide Delegate                 | Hide Delegate                         |
+| Remove Middle Man             | Remove Middle Man                     |
+| Substitute Algorithm          | Substitute Algorithm (CH 6)           |
+
+**Chap 8**
+| V2 - Moving Features              | V1                                                |
+| --------------------------------- | ------------------------------------------------- |
+| Move Function                     | Move Method (CH 7)                                |
+| Move Field                        | Move Field (CH 7)                                 |
+| Move Statements into Functions    |                                                   |
+| Move Statements to Callers        |                                                   |
+| Replace Inline with Function Call |                                                   |
+| Slide Statement                   | Consolidate Duplicate Conditional Fragment (CH 9) |
+| Split Loop                        |                                                   |
+| Replace Loop with Pipeline        |                                                   |
+| Remove Dead Code                  |                                                   |
+
+**Chap 9**
+| V2 - Organizing Data                | V1                                                 |
+| ----------------------------------- | -------------------------------------------------- |
+| Split Variable                      | Split Temporary Variable (CH 6)                    |
+| Split Variable                      | Remove Assignment to Parameter(CH 6)               |
+| Rename Field                        |                                                    |
+| Replace Derived Variable with Query |                                                    |
+| Change Reference to Value           | Change Reference to Value (CH 8)                   |
+| Change Value to Reference           | Change Value to Reference (CH 8)                   |
+| Replace Magic Literal               | Replace Magic Number with Symbolic Constant (CH 8) |
+
+**Chap 10**
 | V2 - Simplifying Conditional Logic            | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
 | Decompose Conditional                         | Decompose Conditional(CH 9)                          |
@@ -158,22 +188,6 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Control Flag with Break               | Remove Control Flag(CH 9)                            |
 
 **Chap 11**
-
-| V1 - Dealing with Generalization              | V2                                   |
-| --------------------------------------------- | ------------------------------------ |
-| Pull Up Field                                 |                                      |
-| Pull Up Method                                |                                      |
-| Pull Up Constructor Body                      |                                      |
-| Push Down Method                              |                                      |
-| Push Down Field                               |                                      |
-| Extract Subclass                              |                                      |
-| Extract Superclass                            |                                      |
-| Extract Interface                             |                                      |
-| Collapse Hierarchy                            |                                      |
-| Form Template Method                          |                                      |
-| Replace Inheritance with Delegation           |                                      |
-| Replace Delegation with Inheritance           |                                      |
-
 | V2 - Refactoring APIs                         | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
@@ -189,3 +203,19 @@ You might find it useful if you are doing a book club where people have differen
 | Return Modified Value                         |                                                      |
 | Replace Error Code with Exception             | Replace Error Code with Exception (CH 10)            |
 | Replace Exception with Precheck               | Replace Exception with Test (CH 10)                  |
+
+**Chap 12**
+
+| V2 - Dealing with Inheritance                 | V1                                          |
+| --------------------------------------------- | ------------------------------------------- |
+| Pull Up Method                                | Pull Up Method (CH 11)                      |
+| Pull Up Field                                 | Pull Up Field (CH 11)                       |
+| Pull Up Constructor Body                      | Pull Up Constructor Body (CH 11)            |
+| Push Down Method                              | Push Down Method (CH 11)                    |
+| Push Down Field                               | Push Down Field (CH 11)                     |
+| Replace Type Code with Subclasses             | Replace Type Code with Subclasses (CH 8)    |
+| Remove Subclass                               |                                             |
+| Extract Superclass                            | Extract Superclass (CH 11)                  |
+| Collapse Hierarchy                            | Collapse Hierarchy (CH 11)                  |
+| Replace Subclass with Delegate                | Replace Inheritance with Delegation (CH 11) |
+| Replace Superclass with Delegate              | Replace Delegation with Inheritance (CH 11) |
