@@ -1,5 +1,5 @@
 class Person {
-  constructor( name, genderCode ) {
+  constructor( name, genderCode = 'X' ) {
     this._name = name
     this._genderCode = genderCode
   }
@@ -9,16 +9,17 @@ class Person {
   get genderCode() {
     return this._genderCode
   }
-}
-
-function createPerson( name, type ) {
-  if( type ) {
-    return new Person(name, type )
-  } else {
-    return new Person( name, 'X' )
+  isMale() {
+    return this.genderCode === 'M'
   }
 }
 
-console.log( createPerson( '', 'F' ).genderCode )
-console.log( createPerson( '', 'M' ).genderCode )
-console.log( createPerson( 'Martin').genderCode )
+const female = new Person( '', 'F' )
+const male = new Person( '', 'M' )
+const person = new Person( 'Martin')
+const people = [ female, male, person ]
+
+console.log( female.genderCode )
+console.log( male.genderCode )
+console.log( person.genderCode )
+console.log( people.filter( p => p.isMale() ).length )

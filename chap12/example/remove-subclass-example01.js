@@ -22,6 +22,12 @@ class Female extends Person {
   }
 }
 
-console.log( new Female().genderCode )
-console.log( new Male().genderCode )
-console.log( new Person( 'Martin' ).genderCode )
+const female = new Female()
+const male = new Male()
+const person = new Person( 'Martin' )
+const people = [ female, male, person ]
+
+console.log( female.genderCode )
+console.log( male.genderCode )
+console.log( person.genderCode )
+console.log( people.filter( p => p instanceof Male ).length )

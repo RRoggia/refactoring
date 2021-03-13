@@ -63,8 +63,8 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Record with Data Class                     |                                           |
 | Replace Type Code with Class                       | Replace Primitive With Object (CH 7)      |
 | Replace Type Code with Subclasses                  | Replace Type Code with Subclasses (CH 12) |
-| Replace Type Code with State/Strategy              |                                           |
-| Replace Subclass with Fields                       |                                           |
+| Replace Type Code with State/Strategy              | Replace Type Code with Subclasses (CH 12) |
+| Replace Subclass with Fields                       | Remove Subclass(CH 12)                    |
 
 
 
@@ -103,20 +103,20 @@ You might find it useful if you are doing a book club where people have differen
 
 **Chap 11**
 
-| V1 - Dealing with Generalization              | V2                                       |
-| --------------------------------------------- | ---------------------------------------- |
-| Pull Up Field                                 | Pull Up Field (CH 12)                    |
-| Pull Up Method                                | Pull Up Method (CH 12)                   |
-| Pull Up Constructor Body                      | Pull Up Constructor Body (CH 12)         |
-| Push Down Method                              | Push Down Method (CH 12)                 |
-| Push Down Field                               | Push Down Field (CH 12)                  |
-| Extract Subclass                              |                                          |
-| Extract Superclass                            | Extract Superclass (CH 12)               |
-| Extract Interface                             |                                          |
-| Collapse Hierarchy                            | Collapse Hierarchy (CH 12)               |
-| Form Template Method                          |                                          |
-| Replace Inheritance with Delegation           | Replace Subclass with Delegate (CH 12)   |
-| Replace Delegation with Inheritance           | Replace Superclass with Delegate (CH 12) |
+| V1 - Dealing with Generalization              | V2                                        |
+| --------------------------------------------- | ----------------------------------------- |
+| Pull Up Field                                 | Pull Up Field (CH 12)                     |
+| Pull Up Method                                | Pull Up Method (CH 12)                    |
+| Pull Up Constructor Body                      | Pull Up Constructor Body (CH 12)          |
+| Push Down Method                              | Push Down Method (CH 12)                  |
+| Push Down Field                               | Push Down Field (CH 12)                   |
+| Extract Subclass                              | Replace Type Code with Subclasses (CH 12) |
+| Extract Superclass                            | Extract Superclass (CH 12)                |
+| Extract Interface                             |                                           |
+| Collapse Hierarchy                            | Collapse Hierarchy (CH 12)                |
+| Form Template Method                          |                                           |
+| Replace Inheritance with Delegation           | Replace Subclass with Delegate (CH 12)    |
+| Replace Delegation with Inheritance           | Replace Superclass with Delegate (CH 12)  |
 
 # V2 - Summary
 
@@ -206,16 +206,17 @@ You might find it useful if you are doing a book club where people have differen
 
 **Chap 12**
 
-| V2 - Dealing with Inheritance                 | V1                                          |
-| --------------------------------------------- | ------------------------------------------- |
-| Pull Up Method                                | Pull Up Method (CH 11)                      |
-| Pull Up Field                                 | Pull Up Field (CH 11)                       |
-| Pull Up Constructor Body                      | Pull Up Constructor Body (CH 11)            |
-| Push Down Method                              | Push Down Method (CH 11)                    |
-| Push Down Field                               | Push Down Field (CH 11)                     |
-| Replace Type Code with Subclasses             | Replace Type Code with Subclasses (CH 8)    |
-| Remove Subclass                               |                                             |
-| Extract Superclass                            | Extract Superclass (CH 11)                  |
-| Collapse Hierarchy                            | Collapse Hierarchy (CH 11)                  |
-| Replace Subclass with Delegate                | Replace Inheritance with Delegation (CH 11) |
-| Replace Superclass with Delegate              | Replace Delegation with Inheritance (CH 11) |
+| V2 - Dealing with Inheritance                 | V1                                           |
+| --------------------------------------------- | -------------------------------------------- |
+| Pull Up Method                                | Pull Up Method (CH 11)                       |
+| Pull Up Field                                 | Pull Up Field (CH 11)                        |
+| Pull Up Constructor Body                      | Pull Up Constructor Body (CH 11)             |
+| Push Down Method                              | Push Down Method (CH 11)                     |
+| Push Down Field                               | Push Down Field (CH 11)                      |
+| Replace Type Code with Subclasses             | Replace Type Code with Subclasses (CH 8)     |
+| Replace Type Code with Subclasses             | Replace Type Code with State/Strategy (CH 8) |
+| Remove Subclass                               | Replace Subclass with Fields (CH 8)          |
+| Extract Superclass                            | Extract Superclass (CH 11)                   |
+| Collapse Hierarchy                            | Collapse Hierarchy (CH 11)                   |
+| Replace Subclass with Delegate                | Replace Inheritance with Delegation (CH 11)  |
+| Replace Superclass with Delegate              | Replace Delegation with Inheritance (CH 11)  |
