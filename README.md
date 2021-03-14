@@ -1,5 +1,5 @@
 # refactoring
-This repo has the code and from the Refactoring - Improving the design of your code (2nd edition)
+This repo has the code from the book Refactoring - Improving the design of your code (2nd edition)
 
 ## Structure
 Each chapter's code has a specific folder with the chapter name (example: `chap6` or `chap11`).
@@ -14,9 +14,9 @@ Below you can find two tables that relates the refactorings from the first and s
 You might find it useful if you are doing a book club where people have different versions of the book.
 
 # V1 - Summary
-**Chap 6**
+**Chap 6 - Composing Methods**
 
-| V1 - Composing Methods            | V2                                    |
+| V1                                | V2                                    |
 | --------------------------------- | ------------------------------------- |
 | Extract Method                    | Extract Function                      |
 | Inline Method                     | Inline Function                       |
@@ -30,9 +30,9 @@ You might find it useful if you are doing a book club where people have differen
 
 
 
-**Chap 7**
+**Chap 7 - Moving Features Between Objects**
 
-| V1 - Moving Features Between Objects | V2                            |
+| V1                                   | V2                            |
 | ------------------------------------ | ----------------------------- |
 | Move Method                          | Move Function (CH 8)          |
 | Move Field                           | Move Field (CH 8)             |
@@ -45,9 +45,9 @@ You might find it useful if you are doing a book club where people have differen
 
 
 
-**Chap 8**
+**Chap 8 - Organizing Data**
 
-| V1 - Organizing Data                               | V2                                        |
+| V1                                                 | V2                                        |
 | -------------------------------------------------- | ----------------------------------------- |
 | Self Encapsulate Field                             | Encapsulate Variable (CH 6)               |
 | Replace Data Value with Object                     | Replace Primitive With Object (CH 7)      |
@@ -68,9 +68,9 @@ You might find it useful if you are doing a book club where people have differen
 
 
 
-**Chap 9**
+**Chap 9 - Simplifying Conditional Expressions**
 
-| V1 - Simplifying Conditional Expressions      | V2                                                    |
+| V1                                            | V2                                                    |
 | --------------------------------------------- | ----------------------------------------------------- |
 | Decompose Conditional                         | Decompose Conditional (CH 10)                         |
 | Consolidate Conditional Expression            | Consolidate Conditional Expression (CH 10)            |
@@ -81,9 +81,9 @@ You might find it useful if you are doing a book club where people have differen
 | Introduce Null Object                         | Introduce Special Case (CH 10)                        |
 | Introduce Assertion                           | Introduce Assertion (CH 10)                           |
 
-**Chap 10**
+**Chap 10 - Making Method Calls Simpler**
 
-| V1 - Making Method Calls Simpler              | V2                                                |
+| V1                                            | V2                                                |
 | --------------------------------------------- | ------------------------------------------------- |
 | Rename Method                                 | Change Function Declaration (CH 6)                |
 | Add Parameter                                 | Change Function Declaration (CH 6)                |
@@ -101,9 +101,9 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Error Code with Exception             | Replace Error Code with Exception (CH 11)         |
 | Replace Exception with Test                   | Replace Exception with Precheck(CH 11)            |
 
-**Chap 11**
+**Chap 11 - Dealing with Generalization**
 
-| V1 - Dealing with Generalization              | V2                                        |
+| V1                                            | V2                                        |
 | --------------------------------------------- | ----------------------------------------- |
 | Pull Up Field                                 | Pull Up Field (CH 12)                     |
 | Pull Up Method                                | Pull Up Method (CH 12)                    |
@@ -120,8 +120,8 @@ You might find it useful if you are doing a book club where people have differen
 
 # V2 - Summary
 
-**Chap 6**
-| V2 - A first set of Refactorings  | V1                                    |
+**Chap 6 - A first set of Refactorings**
+| V2                                | V1                                    |
 | --------------------------------- | ------------------------------------- |
 | Extract Function                  | Extract Method                        |
 | Inline Function                   | Inline Method                         |
@@ -138,8 +138,8 @@ You might find it useful if you are doing a book club where people have differen
 | Combine Functions into Transform  |                                       |
 | Split Phase                       |                                       |
 
-**Chap 7**
-| V2 - Encapsulation            | V1                                    |
+**Chap 7 - Encapsulation**
+| V2                            | V1                                    |
 | ----------------------------- | ------------------------------------- |
 | Encapsulate Record            | Replace Record with Data Class (CH 8) |
 | Encapsulate Collection        | Encapsulate Collection (CH 8)         |
@@ -152,8 +152,8 @@ You might find it useful if you are doing a book club where people have differen
 | Remove Middle Man             | Remove Middle Man                     |
 | Substitute Algorithm          | Substitute Algorithm (CH 6)           |
 
-**Chap 8**
-| V2 - Moving Features              | V1                                                |
+**Chap 8 - Moving Features**
+| V2                                | V1                                                |
 | --------------------------------- | ------------------------------------------------- |
 | Move Function                     | Move Method (CH 7)                                |
 | Move Field                        | Move Field (CH 7)                                 |
@@ -165,8 +165,8 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Loop with Pipeline        |                                                   |
 | Remove Dead Code                  |                                                   |
 
-**Chap 9**
-| V2 - Organizing Data                | V1                                                 |
+**Chap 9 - Organizing Data**
+| V2                                  | V1                                                 |
 | ----------------------------------- | -------------------------------------------------- |
 | Split Variable                      | Split Temporary Variable (CH 6)                    |
 | Split Variable                      | Remove Assignment to Parameter(CH 6)               |
@@ -176,8 +176,8 @@ You might find it useful if you are doing a book club where people have differen
 | Change Value to Reference           | Change Value to Reference (CH 8)                   |
 | Replace Magic Literal               | Replace Magic Number with Symbolic Constant (CH 8) |
 
-**Chap 10**
-| V2 - Simplifying Conditional Logic            | V1                                                   |
+**Chap 10 - Simplifying Conditional Logic**
+| V2                                            | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
 | Decompose Conditional                         | Decompose Conditional(CH 9)                          |
 | Consolidate Conditional Expression            | Consolidate Conditional Expression (CH 9)            |
@@ -187,8 +187,8 @@ You might find it useful if you are doing a book club where people have differen
 | Introduce Assertion                           | Introduce Assertion (CH 10)                          |
 | Replace Control Flag with Break               | Remove Control Flag(CH 9)                            |
 
-**Chap 11**
-| V2 - Refactoring APIs                         | V1                                                   |
+**Chap 11 - Refactoring APIs**
+| V2                                            | V1                                                   |
 | --------------------------------------------- | ---------------------------------------------------- |
 | Separate Query from Modifier                  | Separate Query from Modifier (CH 10)                 |
 | Parameterize Function                         | Parameterize Method (CH 10)                          |
@@ -204,9 +204,9 @@ You might find it useful if you are doing a book club where people have differen
 | Replace Error Code with Exception             | Replace Error Code with Exception (CH 10)            |
 | Replace Exception with Precheck               | Replace Exception with Test (CH 10)                  |
 
-**Chap 12**
+**Chap 12 - Dealing with Inheritance**
 
-| V2 - Dealing with Inheritance                 | V1                                           |
+| V2                                            | V1                                           |
 | --------------------------------------------- | -------------------------------------------- |
 | Pull Up Method                                | Pull Up Method (CH 11)                       |
 | Pull Up Field                                 | Pull Up Field (CH 11)                        |
